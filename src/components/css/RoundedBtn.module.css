@@ -1,0 +1,21 @@
+.btnStyle{
+    font-weight: bold;
+        color: white;
+        border-radius: 2rem;
+        cursor: pointer;
+        width: auto;
+        height: 42.66px;
+        border: none;
+        background-color: #7A1CA7;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 20px;
+        transition: 0.3s;
+}
+
+.btnStyle:hover{
+    background-color: #5e1082;
+}

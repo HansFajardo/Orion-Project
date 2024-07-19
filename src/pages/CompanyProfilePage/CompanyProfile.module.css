@@ -1,0 +1,26 @@
+.icon:hover{
+    cursor: pointer;
+}
+
+.descriptionContainer {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.collapsed{
+    /* height: 300px; */
+    max-height: 200px; /* Set maximum height for collapsed state */
+    overflow: hidden; /* Hide overflow content */
+    transition: max-height 1s ease; 
+}
+
+.expand{
+    max-height: 1000px; /* Allow content to expand to full height */
+    overflow: visible; /* Show overflow content when expanded */
+    
+    
+}
+
+.collapseBtn:hover{
+    cursor: pointer;
+}
